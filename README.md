@@ -14,17 +14,18 @@ This project uses Supervised Machine Learning to predict estate property sale pr
 
 ## 📊 Visualizations
 
-### 1. Feature Analysis
-This scatter plot shows the relationship between individual property features and the final sale price.
-![Features vs SalePrice](Sale%20Price%20variation%20with%20Features.png)
+### 1. Model Accuracy (Actual vs. Predicted)
+The following graph compares the actual market prices against the values predicted by the model. The 45-degree dashed line represents a perfect prediction where the actual value equals the predicted value.
+![Actual vs Predicted](house%20prediction/images/ACTUAL%20vs%20PREDICTED%20PRICE.png)
 
-### 2. Price Distribution
-A breakdown of price variations across different categories using a pie chart.
-![Feature Pie Chart](Piechart%20variation%20of%20FEATURES.png)
+### 2. Feature Analysis
+Visualizing the relationship between individual property features and the final sale price to identify key price drivers.
+![Features vs SalePrice](house%20prediction/images/Sale%20Price%20variation%20with%20Features.png)
 
-### 3. Model Accuracy
-The graph below compares the Actual vs. Predicted prices. The 45-degree dashed line represents perfect prediction accuracy.
-![Actual vs Predicted](ACTUAL%20vs%20PREDICTED%20PRICE.png)
+### 3. Price Distribution
+A categorical breakdown of price variations using a pie chart to visualize how features impact the overall value distribution.
+![Feature Pie Chart](house%20prediction/images/Piechart%20variation%20of%20FEATURES.png)
+
 
 ## ⚙️ Workflow
 1. **Data Cleaning:** Dropped `NaN` values to ensure data quality.
